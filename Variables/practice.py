@@ -1,32 +1,32 @@
 #Santiago Lagarde Variables Practice Py
 
 
-name = ("Santiago")
+name = "Santiago"
 print(name)
 
-u = ("Ucas")
+u = "Ucas"
 print(u)
 
-y = ("2025")
+y = "2025"
 print(y)
 
-ec = ("brown")
+ec = "brown"
 print(ec)
 
-n1 = ("5")
+n1 = "5"
 print(n1)
 
-n100 = ("250")
+n100 = "250"
 print(n100)
 
-f = ("HotChoco")
+f = "HotChoco"
 print(f)
 
-c = ("purple")
+c = "purple"
 print(c)
 
-a = ("14")
+a = "14"
 print(a)
 
-s = ("DigiMedia")
+s = "DigiMedia"
 print(s) 
