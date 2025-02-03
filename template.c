@@ -1,12 +1,9 @@
+//santiago L, template
+
 #include <stdio.h> 
 
-char name[] = "Santiago";
-int num = 42;
-float pi = 3.14;
+
 int main(void){
-    printf("Hello %s, my age is sigma %d and my favorite number is %f\n", name, num, pi);
-    printf("%d\n", num);
-    printf("%f\n", pi);
-    
+printf("Hello World");
     return 0;
 }
