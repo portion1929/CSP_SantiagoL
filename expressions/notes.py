@@ -14,4 +14,4 @@
 #print((3+7)*2*2)
 pi = 3.14159
 
-print(pi)
+print(f"{pi:.4f}" )
