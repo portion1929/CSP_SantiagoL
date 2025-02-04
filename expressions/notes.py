@@ -12,9 +12,6 @@
 
 #print(3+7*2)
 #print((3+7)*2*2)
-x = 2
-print(x)
+pi = 3.14159
 
-x %= 26.2
-
-print(x)
+print(pi)
