@@ -1,3 +1,5 @@
+//santiago practice c
+
 #include <stdio.h> 
 
 char name[] = "Santiago";
