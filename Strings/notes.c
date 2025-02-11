@@ -12,8 +12,11 @@ int main(void){
 //char sentence[] = "The quick black fox jumps over the white dog";
 //printf("%lu\n", strlen(sentence));
  char one[] = "Hello ";
- char two[] = "World";
+ char two[] = "World ";
+ char three[] = "This my program ";
  strcat(one, two);
  printf("%s\n", one);
+ strcat(three, one);
+printf("%s\n", three);
     return 0;
 }
