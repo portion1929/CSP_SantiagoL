@@ -14,6 +14,7 @@ int main(void){
  char one[] = "Hello ";
  char two[] = "World ";
  char three[] = "This my program ";
+ two[5] = '?';
  strcat(one, two);
  printf("%s\n", one);
  strcat(three, one);
