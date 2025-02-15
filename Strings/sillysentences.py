@@ -5,4 +5,4 @@ name = input("Welcome to the Silly Sentence Machine! this program will let you m
 friend = input("Hello, now please type in your favorite friend.")
 verb = input("Now, type in your favorite verb.")
 adj = input("Great! now type in your favorite adjective")
-print(f (name))
+print(f"while"(name), "was walking from his"(adj) (friend),(verb), "into him.")
