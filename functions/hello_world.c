@@ -1,7 +1,6 @@
 #include <stdio.h> 
 
+void name("what"){
 
-void main(){
-printf("hello");
-
+ 
 }
