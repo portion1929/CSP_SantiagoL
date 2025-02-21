@@ -1,5 +1,5 @@
 #santiago lagarde finance calc py
-print("This calculator will help you deal with Finances.\n")
+print("This calculator will help you deal with finances so you don't have to do them yourself!.\n")
 def info(income, amount,type):
     pertype = (amount/income)*100
     print(f"You spend ${amount:.2f} on {type} and that is {pertype:.0f}% of your income.")
