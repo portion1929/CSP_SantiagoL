@@ -1,10 +1,13 @@
-#include <stdio.h> 
-char name1[50] = "Michael";
-char name2[50] = "Joanne";
-char name3[50] = "Tyler";
-char name4[50] = "The";
-char name5[50] = "Creator";
-int name(void){
+#include <stdio.h>
 
- return 0;
+void names(char names[]){
+    printf("hello %s\n", names);
+}
+int main(void){
+    names("Strawberry_Banana0");
+    names("Joanne");
+    names("Tyler");
+    names("The");
+    names("Creator");
+    return 0;
 }
