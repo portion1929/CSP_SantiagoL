@@ -1,4 +1,8 @@
-income = float(input("Hello, this is a financial calculator!\n What is your monthly income?: "))
+#santiago L, finance calculator
+
+
+print("Hello, this is a financial calculator!\n")
+income = float(input(" What is your monthly income?: "))
 rent = float(input("What is your monthly amount spent on rent?: "))
 utilities = float(input("What is your monthly amount spent on utilities?: "))
 groceries = float(input("What is your monthly amount spent on groceries?: "))
