@@ -12,7 +12,7 @@ float input(char type[], float var){
 void percent(char type[], int ammount){
     int per = ammount/income * 100;
 
-    printf("your %s is %d%% of your income.\n", type, per);
+    printf("your %s is %d% of your income.\n", type, per);
 }
     
 int main(void){
