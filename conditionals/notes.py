@@ -28,9 +28,24 @@ print("helllo walecoe to program that conditional")
 #in is in the string
 #! is not in the strng
 
-name = "ma"
+#name = "ma"
 
-if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
-    print("your name has vowl")
+#if "a" in name or "e" in name or "i" in name or "o" in name or "u" in name:
+    #print("your name has vowl")
+#else:
+    #print("your name does not hvae vowl gng")
+
+num = 9
+if num > 5 and num < 10:
+    if num == 7:
+        print(f"{num} is an ubluxkt number")
+    else:
+        print(f"{num} is a large sing=digit #")
 else:
-    print("your name does not hvae vowl gng")
+    if num ==4:
+        print(f"{num} is best #")
+    else:
+        if num >=10:
+            print(f"{num} is not sing-digit")
+        else:
+            print(f"{num} is small")
