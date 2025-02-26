@@ -1,5 +1,11 @@
-age = input("how old are you?")
-if age >5:
-    print(f"because you are {age}, you are old enough to go to school")
-else: 
-    print(f"because you are {age}, you are not allowed to go to school")
+age = int(input("how old are you?\n"))
+if age >=18:
+    print(f"because you are {age}, you can vote, drive, get your learners permit, and go to school.")
+elif age <18 or age >=16:
+    print(f"because you are {age}, you cannot vote, but you can drive, get your learners permit and go to school.")
+elif age <16 & age == 15:
+    print(f"because you are {age}, you cannot vote or drive, but you can get your learners permit and go to school.")
+elif age <15 & age >5:
+    print(f"because you are {age}, you cannot vote, drive or get your learners permit, but you can go to school.")
+else:
+    print(f"becaues you are {age} you cannot vote, drive, get your learners permit or go to school.")
