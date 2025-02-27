@@ -1,7 +1,7 @@
 age = int(input("how old are you?\n"))
 if age >=18:
     print(f"because you are {age}, you can vote, drive, get your learners permit, and go to school.")
-elif age <18 or age >=16:
+elif age <18 & age ==16:
     print(f"because you are {age}, you cannot vote, but you can drive, get your learners permit and go to school.")
 elif age <16 & age == 15:
     print(f"because you are {age}, you cannot vote or drive, but you can get your learners permit and go to school.")
