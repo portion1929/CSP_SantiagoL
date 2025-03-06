@@ -1,3 +1,1 @@
-
-    print(f"{num}. {sibling} goon")
-    num += 1
+for num in range(1,10,2):
