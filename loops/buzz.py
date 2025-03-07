@@ -2,11 +2,11 @@
 nums = 1
 while nums >= 1 and nums <51:
     if nums % 15 == 0:
-        print("Fizz.\n")
+          print("FizzBuzz.\n")
     elif nums % 5 == 0:
         print("Buzz.\n")
     elif nums % 3 == 0:
-        print("FizzBuzz.\n")
+          print("Fizz.\n")
     else:
         print(nums)
     nums += 1
