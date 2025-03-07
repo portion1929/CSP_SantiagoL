@@ -2,7 +2,7 @@
 
 #include <stdio.h> 
 
-int(nums) = 0;
+int(nums) = 1;
 int main(void){
 while (nums >0 && nums < 51){
 if(nums % 15 ==0){
