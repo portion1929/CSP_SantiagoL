@@ -1,11 +1,11 @@
-def create_board():
-    """Creates an empty tic-tac-toe board."""
-    board = [" " for _ in range(9)]
-    return board
+board = [[1,2,3], [4,5,6], [7,8,9]]
+rows =3
+cols = 3
 
-def print_board(board):
-    """Prints the tic-tac-toe board."""
-    for i in range(0, 9, 3):
-        print("|".join(board[i:i+3]))
-        if i < 6:
-            print("-" * 5)
+def gameboard():
+    for x in range(rows):
+        print("+---+---+---+")
+        print("|", end ="")
+        for y in range(cols):
+            print("", gameboard[x][y], end="|")
+    print("\n+---+---+---+")
