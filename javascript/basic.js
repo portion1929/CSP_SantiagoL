@@ -28,3 +28,6 @@ function normal(){
 function show(){
     document.getElementById("hidden").style.display = "block"
 }
+function pop(){
+    document.getElementById("hidden").style.display = "block"
+}
