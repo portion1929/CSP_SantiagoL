@@ -25,3 +25,6 @@ function normal(){
      document.getElementById("Btn").style.backgroundColor = "gray"
     document.getElementById("Btn").style.backgroundColor = "black"
 }
+function show(){
+    document.getElementById("hidden").style.display = "block"
+}
