@@ -1,10 +1,10 @@
-let images = ["https://m.media-amazon.com/images/I/61Jr-rvLUDL._UF1000,1000_QL80_.jpg", "https://m.media-amazon.com/images/I/718khrgr5bL._UF1000,1000_QL80_.jpg"]
+let images = ["https://m.media-amazon.com/images/I/61Jr-rvLUDL._UF1000,1000_QL80_.jpg"]
 
 
 document = notes.html
 function hello(){
-    document.getElementById("title").
-    innerHTML = "Hello World!"
+    let name = window.prompt("what is your JM rank")
+    document.getElementById("title").innerHTML = "hello " + name + "!"
 }
 count = 0
 function change(){
@@ -29,5 +29,5 @@ function show(){
     document.getElementById("hidden").style.display = "block"
 }
 function pop(){
-    document.getElementById("hidden").style.display = "block"
+    window.alert("DONT CLICK IT RETARD")
 }
