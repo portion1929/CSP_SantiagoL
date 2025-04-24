@@ -32,3 +32,7 @@ function show(){
 function pop(){
     window.alert("For real. Don't click this!")
 }
+function more(){
+    document.getElementById("f").style.display = "flex"
+    
+}
