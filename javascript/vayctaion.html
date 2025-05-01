@@ -12,7 +12,7 @@
                 background-color: rgb(255, 156, 76);
             }
         #top{
-            width: 20%;
+            width: 100%;
             border-radius: 2px;
                 
             align-items:normal;
@@ -40,9 +40,13 @@
 
         #one{
             margin-left: 45px;
+            display: flex;
+            
         }
         #two{
-            margin-left: 2125px;
+            margin-right: auto;
+            text-align: left;
+            text-wrap: balance;
         }
 
         #three{
@@ -53,27 +57,52 @@
             color: rgb(0, 0, 155);
         }
         #btn{
-            color: rgb(182, 2, 206);
+            margin-left: 1700px;
+            color: rgb(6, 6, 163);
         }
+        #list{
+            color: rgb(0, 0, 255);
+        }
+        #hist{
+            margin-left: 1700px;
+            color: rgb(0, 0, 255);
+        }
+        #p1{
+            margin-right: 2125px;
+            text-wrap: balance;
+            color: rgb(0, 0, 255);
+        }
+        #hidden{
+        margin-left: 1700px;
+            width: 30%;
+        }
+        
      </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merienda:wght@300..900&family=Pinyon+Script&display=swap" rel="stylesheet">
     </head>
-    <body>
-        
+    <body>     
         <h1 id="TITLE">Sand Hollow Reservoir</h1>
-        <img id="top" src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/saltlake/sand-0560_fafb1895-f53c-35ad-9fbe27be526b69db.jpg">
         <div id="one">
+            <div id="fixed">
+            <img id="top" src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/saltlake/sand-0560_fafb1895-f53c-35ad-9fbe27be526b69db.jpg">
         <h3 id="T3">What to do in Sand Hollow Reservoir:</h3>
-        <ul>
+        <ul id="list">
             <li>Boating, Jetskis</li>
             <li>Paddleboarding</li>
             <li>Swimming</li>
             <li>ATV Riding</li>
             <li>Fishing</li>
         </ul>
+      </div>
+
+        <div id="three">
+            <button id="btn" onclick="show()">HISTORY</button>
+            <p id="hist">Sand Hollow Reservoir, completed in March 2002, is a key water resource for Washington County, Utah, and a popular recreation destination. It was built primarily for managed aquifer recharge, a system where surface water is diverted into an underground aquifer for later retrieval. The reservoir also provides significant recreational opportunities, making Sand Hollow State Park one of Utah's most visited destinations.</p>
+            <img id="hidden" src="https://www.sltrib.com/resizer/v2/CFMN2HVTEBDWXDH2AACY2LIUDU.jpeg?auth=5993090ade324999b645f96bf3939a4b601bff7421d332dc7d1c9bf4f7763e47&width=1024&quality=88">
         </div>
+    </div>
 
         <div id="two">
         <h2 id="why">Why should I visit?</h2>
@@ -81,10 +110,7 @@
         <img id="mid" src="https://www.stgeorgeutahvacationrentals.com/media/654141a79e1a1eee2ee65b49/xlarge.webp">
         </div>
 
-        <div id="three">
-        <button id="btn" onclick="show()">HISTORY</button>
-        <p id="hist">Sand Hollow Reservoir, completed in March 2002, is a key water resource for Washington County, Utah, and a popular recreation destination. It was built primarily for managed aquifer recharge, a system where surface water is diverted into an underground aquifer for later retrieval. The reservoir also provides significant recreational opportunities, making Sand Hollow State Park one of Utah's most visited destinations.</p>
-        <img id="hidden" src="https://www.sltrib.com/resizer/v2/CFMN2HVTEBDWXDH2AACY2LIUDU.jpeg?auth=5993090ade324999b645f96bf3939a4b601bff7421d332dc7d1c9bf4f7763e47&width=1024&quality=88">
-    </div>
+
+    
     </body>
 </html>
