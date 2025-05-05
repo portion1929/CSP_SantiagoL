@@ -1,4 +1,5 @@
 document.vayctaion.html
+let images = ["https://www.stgeorgeutahvacationrentals.com/media/654141a79e1a1eee2ee65b49/xlarge.webp","https://www.thespectrum.com/gcdn/presto/2022/02/05/PSTG/d8d7309c-96ed-466a-8fce-e44c19714c37-STG_0205_Sand_Hollow_Skyfest_85.jpg"]
 function show(){
     if(document.getElementById("hist").style.display != "flex")
         {document.getElementById("hist").style.display = "flex"
@@ -9,4 +10,7 @@ function show(){
     document.getElementById("hist").innerHTML = "show more"
         document.getElementById("hidden").style.display = "none"
     }
+}
+function change(){
+    
 }
